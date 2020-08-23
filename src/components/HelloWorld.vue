@@ -3,9 +3,10 @@
     <h1>{{ msg }}</h1>
     <h3>Social links</h3>
     <ul>
-    <li><a href="https://www.youtube.com/channel/UCLYQcrpocBBQwL_aQVg5Jhw" class="text-decoration-none text-light" target="_blank" rel="noopener"><i class="fa fa-youtube-play"></i>Youtube</a></li>
-    <li><a href="https://www.instagram.com/16buah/" class="text-decoration-none text-light" target="_blank"><i class="fa fa-instagram" rel="noopener"></i>Instagram</a><br></li>
-    <li><a href="https://web.facebook.com/16buah" class="text-decoration-none text-light" target="_blank"><i class="fa fa-facebook-square" rel="noopener"></i>Facebook</a></li>
+    <li><a href="https://www.youtube.com/channel/UCLYQcrpocBBQwL_aQVg5Jhw" target="_blank" rel="noopener">  <font-awesome-icon :icon="['fab', 'youtube']" /> Youtube</a></li>
+    <li><a href="https://www.instagram.com/16buah/" target="_blank"><font-awesome-icon :icon="['fab', 'instagram']" /> Instagram</a><br></li>
+    <li><a href="https://web.facebook.com/16buah" target="_blank"><font-awesome-icon :icon="['fab', 'facebook']" /> Facebook</a></li>
+     <li><a href="https://twitter.com/16buah" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']" /> Twitter</a></li>
     </ul>
   </div>
 </template>
