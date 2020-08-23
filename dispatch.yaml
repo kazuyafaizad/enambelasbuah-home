@@ -1,0 +1,3 @@
+dispatch:
+  - url: www.16buah.com/* # e.g. subdomain.example.com/*
+    service: default
