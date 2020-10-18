@@ -8,45 +8,30 @@
     <li><a href="https://web.facebook.com/16buah" target="_blank"><font-awesome-icon :icon="['fab', 'facebook']" /> Facebook</a></li>
      <li><a href="https://twitter.com/16buah" target="_blank"><font-awesome-icon :icon="['fab', 'twitter']" /> Twitter</a></li>
     </ul>
-
-
-
     <!-- Grid row -->
     <div class="gallery" id="gallery">
 
       <!-- Grid column -->
-      <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" alt="Card image cap">
+      <div class="mb-3 pics animation all 1">
+        <img class="img-fluid" src="https://pbs.twimg.com/media/EYThVNiXQAMdJz5?format=jpg&name=large" alt="Card image cap">
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap">
+        <img class="img-fluid" src="https://pbs.twimg.com/media/ETxvvKuUcAY_KjP?format=jpg&name=large" alt="Card image cap">
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Card image cap">
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg" alt="Card image cap">
+        <img class="img-fluid" src="https://pbs.twimg.com/media/ETDAqtCUUAA3c9B?format=jpg&name=large" alt="Card image cap">
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+        <img class="img-fluid" src="https://pbs.twimg.com/media/EP8hBnDUUAERvc2?format=jpg&name=large" alt="Card image cap">
       </div>
       <!-- Grid column -->
 
@@ -86,15 +71,19 @@ a:hover {
 }
 
 .gallery {
--webkit-column-count: 3;
--moz-column-count: 3;
-column-count: 3;
--webkit-column-width: 33%;
--moz-column-width: 33%;
-column-width: 33%; }
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-width: 50%;
+-moz-column-width: 50%;
+column-width: 50%; }
 .gallery .pics {
 -webkit-transition: all 350ms ease;
 transition: all 350ms ease; }
+.gallery .pics img{
+  width:450px;
+  height:450px;
+  }
 .gallery .animation {
 -webkit-transform: scale(1);
 -ms-transform: scale(1);
@@ -117,4 +106,5 @@ padding-left: 1.1rem;
 padding-right: 1.1rem;
 }
 }
+
 </style>
