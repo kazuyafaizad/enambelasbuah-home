@@ -65,7 +65,7 @@
           <li>3 Changes</li>
           <li>1 Accessories</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Contact us</button>
+        <a href="mailto:kazuyafaizad@gmail.com" role="button" class="btn btn-lg btn-block btn-outline-primary">Tell us</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
@@ -80,7 +80,7 @@
           <li>7 Changes</li>
           <li>Full Accessories</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+        <a  href="mailto:kazuyafaizad@gmail.com" role="button" class="btn btn-lg btn-block btn-primary">Tell us</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
@@ -95,7 +95,7 @@
           <li>7 Changes</li>
           <li>Full Accessories</li>
         </ul>
-        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+        <a  href="mailto:kazuyafaizad@gmail.com" role="button" class="btn btn-lg btn-block btn-primary">Tell us</button>
       </div>
     </div>
   </div>
